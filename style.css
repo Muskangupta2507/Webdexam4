@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.header .fa-solidfa-basket-shopping{
+    float: left;
+}
+.header{
+    justify-content:center ;
+    background-color: white;
+}
+nav{
+    height:20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: baseline;
+    margin: auto;
+    padding:0px 30px;
+    text-decoration: none;
+}
+nav ul{
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+nav ul li{
+    padding-top: 50px;
+    padding-left:50px ;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.head{
+    background: url('./Images/banner-bg.webp') no-repeat;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position:absolute;
+    padding: 10px;
+}
+.head .h1{
+    color: darkblue;
+    font-size: 40px;
+    /* padding: 10px; */
+}
+.head .h1 span{
+    color: orange;
+}
+.head div{
+    margin: 0%;
+    position: absolute;
+    margin: 100px;
+    align-items: center;
+    margin-left: 500px;
+    padding: 10px;
+}
+.but1{
+    margin: 20px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+.but1:hover{
+    background-color: orange;
+}
+.hd1{
+    font-size: 30px;
+    color: black;
+}
+.section2{
+    margin-top: 500px;
+    text-align: center;
+}
+.section2 div{
+    border: 2px black solid ;
+    padding: 15px;
+
+}
+.section2 .pic1{
+    border-radius: 50%;
+    height: 20vh;
+    padding: 20px;
+}
+.section2 .hd1 span, #hd2 span{
+    background-color: orange;
+    color: white;
+}
+.fa-solidfa-star{
+    color: orange;
+}
+.p1{
+    display: flex;
+ }
+.blog{
+    width: 460px;
+}
+
+.p1 :nth-of-type(1){
+    margin-right: 5.5px;
+    height: 250px;
+ }
+.p1:nth-of-type(2){
+    margin-right: 5.5px;
+ }
+
+#img1{
+    height: 20px;
+ }
+.cy{
+    margin-left: 300px;
+ }
+.p1{
+    margin-top: 0;
+ }
+.p2{
+    display: flex;
+    margin-top: 10px;  
+}
+.center{
+  margin-left: 70px;
+ }
+
+.btn8{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    margin-top: 40px;
+ }
+.btn8:hover{
+    background-color: orange;
+}
+#hd2{
+    text-align: center;
+}
+.footer{
+    padding: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+}
